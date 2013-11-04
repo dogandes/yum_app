@@ -1,0 +1,192 @@
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                               HEADER
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <header id="header-wrapper" style="background:#ffffff">
+    <div class="container upper-container">
+      <!-- upper part: contact info -->
+      <div class="header-upper" id="header-upper">
+        <div class="four columns">
+          <div class="map-iframe"><%= image_tag "map-road.jpg" , alt: ""  %> </div>
+        </div>
+        <div class="six  columns contact-datails">
+          <h3 class="font_dosis">Datos de Contacto</h3>
+          <p class="bott-line">Si tienes alguna sugerencia, opinión o reclamo, no dudes en escribirnos y/o llamarnos. Nosotros te responderemos en breve. </p>
+          <div class="address-line">Carrera 78 L - Calle 2A Sur, Banderas, Bogotá - Colombia</div>
+          <div class="part-left">
+
+            <div class="fax-line">Fax: +57 000 000 00 00</div>
+            <div class="phone-line">Móvil: +57 314 654 24 06</div>
+          </div>
+          <div class="part-right">
+            <div class="email-line">E-mail: <a href="mailto:yumla.info@gmail.com">	yumla.info@gmail.com</a></div>
+            <div class="website-line">Website: <a href="#">http://yumla.co</a></div>
+          </div>
+        </div>
+        <div class="six  columns contact-upper-form">
+          <h3>Contáctenos</h3>
+          <form action="#" method="post" class="contact-form" id="SendContact">
+            <input type="text" name="n-name" value="" class="required" placeholder="Nombre*">
+            <input type="text" name="n-email" value="" class="required email" placeholder="Email*">
+            <textarea cols="50" rows="3"  name="n-mess" placeholder="Mensaje*"></textarea>
+
+            <input type="submit" value="Enviar mensaje" class="submit-btn">
+
+          </form>
+        </div>
+        <a href="#header-upper" class="toggle-upper close">Toggle Upper</a> </div>
+    </div>
+
+    <!-- top part: sign / registration -->
+    <div id="header-top"> <a href="#header-upper" class="toggle-upper">Toggle Upper</a>
+      <div class="container">
+        <div class="half-left"> <a href="mailto:yumla.info@gmail.com">yumla.info@gmail.com</a> </div>
+        <div class="half-right"> <a href="#sign-popup" class="toggle-sign">Iniciar sesión</a> <a href="#" class="left_wrapper">Regístrate</a> </div>
+        <div class="clear"></div>
+        <div class="sign-popup" id="sign-popup">
+          <h3>Iniciar sesión</h3>
+          <form action="#" method="post" class="sign-form">
+            <label>Login:</label>
+            <input type="text" value="">
+            <div class="clear"></div>
+            <label>Password:</label>
+            <input type="password" value="">
+            <div class="clear"></div>
+            <p class="al-right"><a href="#">¿Olvidaste tu contraseña?</a>
+              <input type="submit" value="Entrar" class="submit-btn">
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- middle part: logo / tagline / contact info / menu -->
+    <div id="header-middle">
+      <div class="container">
+        <!-- logo / tagline-->
+        <div class="two-thirds column">
+          <div class="logo-slogan">
+            <div class="logo"><%= link_to image_tag("blue/logo.png", alt: ""), '#' %></div>
+            <!-- text: <div class="logo font_gautami"><error href="index.html"><img src="layout/styles/images/blue/footer-logo.png" alt="BeautyMind"></error></div> -->
+            <div class="slogan">responcive/minimal/HTML5</div>
+          </div>
+          <div class="tagline">
+            This is a site tagline.
+          </div>
+        </div>
+        <!-- contact info -->
+        <div class="one-third column info">
+          <div class="phone"> Llámenos al: <strong>+57 (314)
+            <mark>654-24-06</mark>
+          </strong> </div>
+          <div class="social_links">
+            <!-- src ->  grey;
+                 data-icon -> colored -->
+            <%= link_to image_tag("backgrounds/ico/h-ico.png", alt: "twitter", :mouseover =>  image_path("blue/ico.png") ), 'https://twitter.com/Yumla_co' %>
+            <%= link_to image_tag("backgrounds/ico/h-ico-02.png", alt: "facebook"), 'https://www.facebook.com/pages/Universidad-de-los-Andes/312867483159' %>
+            <%= link_to image_tag("backgrounds/ico/h-ico-03.png", alt: "StubleUpon"), '#' %>
+            <%= link_to image_tag("backgrounds/ico/h-ico-04.png", alt: "digg"), '#' %>
+            <%= link_to image_tag("backgrounds/ico/h-ico-05.png", alt: "vimeo"), '#' %>
+            <%= link_to image_tag("backgrounds/ico/h-ico-06.png", alt: "youtube"), 'http://www.youtube.com/user/uniandes' %>
+
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- middle part: logo / tagline / contact info / menu -->
+    <div id="header-bottom" class="container">
+      <div class="header-bottom-wrapper">
+        <nav class="twelve columns alpha" id="main-menu-wrapper">
+          <ul id="main-menu">
+            <li><a href="index.html">Yumla.co</a></li>
+            <li><a href="cursos.html">Cursos</a>
+              <ul>
+                <li><a href="javascript:void(0);" >Física</a>
+                  <ul>
+                    <li><a href="prefisica.html">Prefisica</a></li>
+                    <li><a href="fisicaI.html">Física I</a></li>
+                    <li><a href="fisicaII.html">Física II</a></li>
+                  </ul>
+                </li>
+                <li><a href="javascript:void(0);" >Cálculo</a>
+                  <ul>
+                    <li><a href="precalculo.html">Precálculo</a></li>
+                    <li><a href="calculoDiferencial.html">Cálculo Diferencial</a></li>
+                    <li><a href="calculoIntegral.html">Cálculo Integral</a></li>
+                    <li><a href="calculoVectorial.html">Cálculo Vectorial</a></li>
+                  </ul>
+                </li>
+                <li><a href="javascript:void(0);" >APO</a>
+                  <ul>
+                    <li><a href="apoI.html">APO I</a></li>
+                    <li><a href="apoII.html">APO II</a></li>
+                  </ul>
+                </li>
+                <li><a href="probabilidad.html">Probabilidad</a></li>
+                <li><a href="anadec.html">ANADEC</a></li>
+              </ul>
+            </li>
+            <li><a href="recursos.html">Recursos</a>
+              <ul>
+                <li><a href="software.html">Software</a></li>
+                <li><a href="librosParcialesOtros.html">Libros, Parciales y Otros</a></li>
+              </ul>
+            </li>
+            <li><a href="medios.html">Medios</a>
+              <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="chat.html">Chat</a></li>
+                <li><a href="noticiasEventos.html">Noticias + Eventos</a></li>
+              </ul>
+            </li>
+            <li><a href="javascript:void(0);" >Nosotros</a>
+              <ul>
+                <li><a href="quienesSomos.html">¿Quiénes somos?</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="faq.html">Preguntas frecuentes</a></li>
+              </ul>
+            </li>
+            <li><a class="active"<%= link_to "Contáctenos", contact_path %></a></li>
+          </ul>
+          <select id="main-menu-mobile">
+            <option value="#">Navigate to</option>
+            <option value="index.html">&nbsp;-&nbsp;Home</option>
+            <option value="slider.html">&nbsp;-&nbsp;Sliders</option>
+
+            <option value="index.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;Basic Slider</option>
+            <option value="slider.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;Creative Slider</option>
+            <option value="home.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;Photos Slider</option>
+
+            <option value="typography.html">&nbsp;-&nbsp;Features</option>
+
+            <option value="typography.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;Typography</option>
+            <option value="info-boxes.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;Elements</option>
+            <option value="info-boxes.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;Info Boxes</option>
+            <option value="columns.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;Columns</option>
+            <option value="tabs.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;Tabs&amp;Toggle</option>
+            <option value="pricing.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;Pricing Table</option>
+            <option value="about.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;Template Pages</option>
+            <option value="about.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;About Us</option>
+            <option value="services.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;Services</option>
+            <option value="faq.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;FAQ</option>
+            <option value="404.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;404 Error Page</option>
+            <option value="home.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;Alternate Home Layout</option>
+
+            <option value="portfolio-2c.html">&nbsp;-&nbsp;Portfolio</option>
+            <option value="portfolio-2c.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;Portfolio 2 Columns</option>
+            <option value="portfolio-3c.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;Portfolio 3 Columns</option>
+            <option value="portfolio-4c.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;Portfolio 4 Columns</option>
+            <option value="portfolio-page.html">Portfolio Item Page</option>
+            <option value="blog.html">&nbsp;-&nbsp;Blog</option>
+            <option value="blog-page.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;Single Post</option>
+            <option value="contact.html">&nbsp;-&nbsp;Contact</option>
+          </select>
+        </nav>
+        <div class="four columns omega">
+          <form action="#" method="post" class="search_block">
+            <input type="text" value="Buscar " onFocus="if(this.value=='Search site ')this.value='';" onBlur="if(this.value=='')this.value='Search site ';">
+            <input type="submit" value="">
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>

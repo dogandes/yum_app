@@ -1,0 +1,96 @@
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                       FOOTER
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<footer id="footer-wrapper">
+  <!-- top part [tweeter] -->
+  <div id="footer-top">
+    <div class="footer-tweet-left"></div>
+    <div class="footer-tweet-right"></div>
+    <div class="container">
+      <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+      <script type="text/javascript">
+          // ('YOUR USERNAME','NUMBER OF POSTS');
+          AddTweet('Yumla_co',1);
+      </script>
+    </div>
+  </div>
+  <!-- middle part -->
+  <div id="footer-middle">
+    <div class="container">
+      <!-- logo & some text -->
+      <div class="four columns">
+        <h3 class="logo font_gautami"><a <%= link_to image_tag('blue/footer-logo.png', alt: 'BeautyMind'), '#' %> </a></h3>
+        <p class="flogo-text">Reader will be distracted by the readable content of a page when looking at its layout. The point of using is that it has a more-or-less normal distribution.</p>
+      </div>
+      <!-- links -->
+      <div class="four columns">
+        <h3>Últimas entradas</h3>
+        <ul class="latest_blog">
+          <li> <a <%= link_to image_tag("44x44/latest-blog.jpg", alt: ""), '#' %> Content of a page when randomised.</a>
+            <div class="time">Mar 27, 2012</div>
+          </li>
+          <li> <a <%= link_to image_tag("44x44/latest-blog-02.jpg", alt: ""), '#' %> Majority have suffered alteratio in some.</a>
+            <div class="time">Mar 12, 2012 15:20 PM</div>
+          </li>
+        </ul>
+      </div>
+      <!-- news -->
+      <div class="four columns">
+        <h3>Últimas noticias</h3>
+        <ul class="list_type2 latest_news">
+          <li> <a href="#">Reader will be distracted by the readable content.</a>
+            <div class="time">Mar 20, 2012, 9:15 AM</div>
+          </li>
+          <li> <a href="#">Looking at its layout. The point using is that it has.</a>
+            <div class="time">Mar 12, 2012 15:20 PM</div>
+          </li>
+        </ul>
+      </div>
+      <!-- info -->
+      <div class="four columns">
+        <h3>Póngase en contacto</h3>
+        <div class="address">
+          <p>Dirección: Carrera 78 L - Calle 2A Sur, Banderas, Bogotá - Colombia<br>
+            Móvil: +57 314 654 24 06<br>
+            Fax: +57 000 000 00 00</p>
+          <p>Email: <a href="mailto:yumla.info@gmail.com">yumla.info@gmail.com</a></p>
+        </div>
+        <div class="social_links">
+          <!-- src ->  grey;
+               data-icon -> colored -->
+          <%= link_to image_tag("backgrounds/ico/h-ico.png", alt: "twitter", :mouseover =>  image_path("blue/ico.png") ), 'https://twitter.com/Yumla_co' %>
+          <%= link_to image_tag("backgrounds/ico/h-ico-02.png", alt: "facebook"), 'https://www.facebook.com/pages/Universidad-de-los-Andes/312867483159' %>
+          <%= link_to image_tag("backgrounds/ico/h-ico-03.png", alt: "StubleUpon"), '#' %>
+          <%= link_to image_tag("backgrounds/ico/h-ico-04.png", alt: "digg"), '#' %>
+          <%= link_to image_tag("backgrounds/ico/h-ico-05.png", alt: "vimeo"), '#' %>
+          <%= link_to image_tag("backgrounds/ico/h-ico-06.png", alt: "youtube"), 'http://www.youtube.com/user/uniandes' %>
+      </div>
+    </div>
+
+    <!-- to top -->
+    <a href="#top" class="backtop" title="Page Up"><!-- Upper --></a> </div>
+  <!-- bottom part  -->
+  <div id="footer-bottom">
+    <div id="footer-bottom-arr"></div>
+    <div class="container">
+      <!-- menu -->
+      <div class="two-thirds column">
+        <ul id="footer-menu">
+          <li><a href="home.html">Yumla.co</a></li>
+          <li><a href="slider.html">Cursos</a></li>
+          <li><a href="typography.html">Recursos</a></li>
+          <li><a href="portfolio-2c.html">Equipo</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contáctenos</a></li>
+        </ul>
+      </div>
+      <!-- copyrights -->
+      <div class="one-third column copyrights">
+        <p>© 2011 Beautiful- All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</footer>
+<!-- end footer -->

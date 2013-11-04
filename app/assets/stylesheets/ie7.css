@@ -1,0 +1,51 @@
+/* IE 7-8 STYLES */
+ul#main-menu li ul li,
+ul#main-menu li ul li:first-child{
+	margin-bottom:-3px;}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select,
+.backtop,
+.ico_link,
+#t-navi-prev,
+#t-navi-next,
+.progress-bar,
+.tab-navi > ul > li,
+.tab-navi > ul > li > a,
+.tab-content,
+.btn-grey,
+.accordation-item,
+.plan-header,
+.premium-plan,
+.pricing-box,
+.pricing-box-header,
+.contact-form input[type=text],
+.contact-form textarea,
+.tag-link,
+.recent-box,
+ul.our-work-scheeme li.last-li,
+ul.block-filtered-items li a.fancybox,
+.map-box,
+.desc-container-box,
+.inner-img,
+.comment-avatar,
+#t-navi-prev,
+#t-navi-next{
+	margin-top:-27px;}
+
+.social_links a img,
+.social_links a .title-text{
+	visibility:hidden;}
+.social_links a img:first-child{
+	visibility:visible;}
+.social_links a:hover img,
+.social_links a:hover .title-text{
+	visibility:visible;}
+.social_links a:hover img:first-child{
+	visibility:hidden;}
+
+ul.our-team-list li{
+	margin-right:15px;}

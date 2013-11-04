@@ -1,0 +1,12 @@
+.doc-tweet-line{background:url(../images/backgrounds/ico/tweet_w.png) no-repeat 0 center; padding:0 0 0 30px;font:italic 12px/40px 'Pt Sans',arial,sans-serif; position:absolute; top:3px;}
+
+.li-mb0 li{padding-bottom:0; margin-bottom:0;}
+ul.li-mb0{margin-left:12px;}
+
+.structure{}
+.structure mark{display:inline-block; vertical-align:middle; width:100px;}
+.substructure{display:inline-block; vertical-align:middle; margin-left:100px; width:100px;}
+
+.subh4{margin-left:100px;}
+pre{color:#595959;}
+strong{font-weight:400; color:#000;}
