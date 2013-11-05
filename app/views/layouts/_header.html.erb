@@ -58,6 +58,25 @@
         </div>
       </div>
     </div>
+
+    <% if user_signed_in?%>
+      <nav class="navbar navigation">
+        <ul class="pull-right nav">
+          <li class ="dropdown row">
+            <a href="#" class="btn-medium">
+              <i class="icon-edit"></i><b><%=current_user.email %></b>
+              <i class="icon-angle-down"></i>
+            </a>
+            <ul class ="dropdown-menu centered" style="display: none ">
+
+              <li>
+                <%= link_to "Salir", destroy_user_session_path ,:style=>"background: #333333"%>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    <%end%>
     <!-- middle part: logo / tagline / contact info / menu -->
     <div id="header-middle">
       <div class="container">
